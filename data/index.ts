@@ -106,6 +106,16 @@ export const navItems = [
       link: "https://github.com/pavansailyros/youtube-clone",
       liveLink: "https://admirable-moonbeam-66fa4a.netlify.app"
     },
+
+    {
+      id: 5,
+      title: "Apple_website",
+      des: "A sleek 3D Apple product showcase built with React, Three.js, and GSAP in Vite, featuring smooth animations and immersive interactions.",
+      img: "/applewebsite.png",
+      iconLists: ["/re.svg", "/tail.svg", "/gsap.jpg", "/threejs.png"],
+      link: "https://github.com/pavansailyros/apple_website",
+      liveLink: "https://comfy-brigadeiros-eca30c.netlify.app/"
+    },
   ];
   
   export const testimonials = [
