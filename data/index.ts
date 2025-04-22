@@ -70,17 +70,9 @@ export const navItems = [
   ];
   
   export const projects = [
+
     {
       id: 1,
-      title: "Flipcark clone",
-      des: "The Flipkart Clone App is an e-commerce platform where users can shop for various products easily. It offers secure payments, order tracking, and customer support. Sellers can manage their products with a user-friendly dashboard.",
-      img: "/flipcartclone.png",
-      iconLists: ["/html.jpg", "/css.png", ],
-      link: "https://github.com/pavansailyros/flipkartclone",
-      liveLink: "https://pavansailyros.github.io/flipkartclone"
-    },
-    {
-      id: 2,
       title: "GPT-3",
       des: "I developed a responsive landing page for 'GPT-3' using ReactJS and CSS, showcasing the capabilities of OpenAI's GPT-3 technology. This project highlights my skills in modern web development practices and responsive design.",
       img: "/gpt_img.png",
@@ -88,12 +80,24 @@ export const navItems = [
       link: "https://github.com/pavansailyros/gpt",
       liveLink: "https://pavansailyros.github.io/gpt/"
     },
+
+
+    {
+      id: 2,
+      title: "Hoo Bank",
+      des: "A modern HooBank landing page built with React, Tailwind CSS, and Vite, featuring clean design, smooth interactions, and a professional UI layout.",
+      img: "/bank.png",
+      iconLists: ["/re.svg", "/tail.svg", "/vite.jpg" ],
+      link: "https://github.com/pavansailyros/bank_app",
+      liveLink: "https://teal-dolphin-0672c7.netlify.app/"
+    },
+
     {
       id: 3,
       title: "Whatsapp-Landingpage",
       des: "I developed a responsive landing page for 'Whatsapp' using ReactJS and TailwindCSS, showcasing the capabilities of Whatsapp technology. This project highlights my skills in modern web development practices and responsive design.",
       img: "/whatsapp-landingpage.png",
-      iconLists: ["/re.svg", "/tail.svg", ],
+      iconLists: ["/re.svg", "/tail.svg","/vite.jpg" ],
       link: "https://github.com/pavansailyros/whatsapp-page",
       liveLink: "https://pavansailyros.github.io/whatsapp-page/"
     },
@@ -102,17 +106,27 @@ export const navItems = [
       title: "Youtube-clone",
       des: "I developed a YouTube clone using React, Tailwind CSS, and REST API to replicate the core features of the popular video-sharing platform.",
       img: "/youtube-clone.png",
-      iconLists: ["/re.svg", "/tail.svg", "/rest.png"],
+      iconLists: ["/re.svg", "/tail.svg", "/rest.png","/vite.jpg"],
       link: "https://github.com/pavansailyros/youtube-clone",
       liveLink: "https://admirable-moonbeam-66fa4a.netlify.app"
     },
 
     {
       id: 5,
+      title: "Nike_website",
+      des: "A clean and modern Nike product landing page crafted with React, Tailwind CSS, and Vite — showcasing stylish shoe arrivals with a responsive layout and bold visual appeal",
+      img: "/nike.png",
+      iconLists: ["/re.svg", "/tail.svg","/vite.jpg" ],
+      link: "https://github.com/pavansailyros/nike",
+      liveLink: "https://scintillating-torte-1e11b5.netlify.app/"
+    },
+
+    {
+      id: 6,
       title: "Apple_website",
       des: "A sleek 3D Apple product showcase built with React, Three.js, and GSAP in Vite, featuring smooth animations and immersive interactions.",
       img: "/applewebsite.png",
-      iconLists: ["/re.svg", "/tail.svg", "/gsap.jpg", "/threejs.png"],
+      iconLists: ["/re.svg", "/tail.svg", "/gsap.jpg", "/threejs.png","/vite.jpg"],
       link: "https://github.com/pavansailyros/apple_website",
       liveLink: "https://comfy-brigadeiros-eca30c.netlify.app/"
     },

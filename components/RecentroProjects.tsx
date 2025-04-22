@@ -129,17 +129,16 @@ const RecentroProjects = () => {
             className='sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]'
           >
             <PinContainer title={link} href={link}>
-              <div
-                className='relative flex items-center sm:w-96 w-[80vw] overflow-hidden 
-                sm:h-[40vh] h-[30vh] mb-10 rounded-xl shadow-md bg-[#13163d] 
-                hover:scale-[1.02] transition-all duration-300 ease-in-out'
-              >
-                <img
-                  src={img}
-                  alt={title}
-                  className='w-full h-full object-cover'
-                />
-              </div>
+            <div
+  className='relative flex items-center sm:w-96 w-[80vw] aspect-video mb-10 rounded-xl shadow-md bg-[#13163d] 
+  hover:scale-[1.02] transition-all duration-300 ease-in-out'
+>
+  <img
+    src={img}
+    alt={title}
+    className='w-full h-full object-contain'
+  />
+</div>
 
               <h1 className='font-bold lg:text-2xl md:text-xl text-base line-clamp-1'>
                 {title}
